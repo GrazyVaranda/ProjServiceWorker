@@ -1,0 +1,40 @@
+
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+#drawerMenu {
+    background-color: #004d40;
+    color: white;
+    padding: 20px;
+    width: 300px;
+    margin: 0 auto;
+}
+
+#login {
+    display: flex;
+    flex-direction: column;
+}
+
+#login input[type="text"], 
+#login input[type="password"] {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+#login button {
+    padding: 10px;
+    background-color: #1976d2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#login button:hover {
+    background-color: #1565c0;
+}
