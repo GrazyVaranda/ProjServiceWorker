@@ -2,7 +2,7 @@ package projetocorrida.model;
 
 public class Carro implements Automovel {
 public String acelerar () {
-	return "Vruumm!";
+	return "Vruummm!";
 }
 
 @Override
