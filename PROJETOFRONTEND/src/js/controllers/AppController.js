@@ -12,6 +12,7 @@ export class AppController {
                 this.mostraMenuDrawer();
             });
         }
+        console.log("Javascript foi carregado e iniciado")
     }
 
     mostraMenuDrawer() {
